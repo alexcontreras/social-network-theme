@@ -175,3 +175,15 @@
     background-color: $dark-color;
     color: $primary-color;
 }
+
+.table {
+    th, td {
+        padding: 1rem;
+        text-align: left;
+        border: 1px solid #ccc;
+    }
+
+    th {
+        background: $light-color;
+    }
+}
